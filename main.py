@@ -3,7 +3,7 @@ import streamlit as st
 # Page config
 st.set_page_config(page_title="To-Do App", page_icon="📝")
 
-st.title("📝 To-Do App")
+st.title("To-Do App")
 
 # Initialize session state
 if "tasks" not in st.session_state:
