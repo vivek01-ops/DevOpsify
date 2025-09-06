@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Page config
-st.set_page_config(page_title="To-Do App", page_icon="📝")
+st.set_page_config(page_title="To-Do Application", page_icon="📝")
 
 st.title("To-Do App")
 
