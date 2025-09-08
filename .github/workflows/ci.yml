@@ -71,8 +71,8 @@ jobs:
 
         - name: Commit and push changes
           run: |
-            git config --global user.email "abhishek@gmail.com"
-            git config --global user.name "Abhishek Veeramalla"
+            git config --global user.email "chaydharivivek.512@gmail.com"
+            git config --global user.name "vivek01-ops"
             git add helm/todo-chart/values.yaml
             git commit -m "Update tag in Helm chart"
             git push
